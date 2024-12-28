@@ -1,0 +1,34 @@
+body {
+    background-color: #111;
+}
+
+i {
+    pointer-events: none;
+}
+
+.title {
+    display: none;
+}
+
+.menu-sidebar {
+    padding: 0%;
+}
+
+.coding-sidebar {
+    display: flex;
+}
+
+.content-body {
+    flex-wrap: nowrap;
+}
+
+.card-header .row > div:first-child {
+    display: none;
+}
+
+/* --------------------- NEW --------------------- */
+
+.disappear {
+    transition: width 10s ease-in-out;
+    width:0%!important;
+}

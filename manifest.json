@@ -1,0 +1,13 @@
+{
+    "name": "Stairway to Heaven",
+    "short_name": "Stairway",
+    "description": "O site da DIO como você nunca viu, mas sempre sonhou! Em referência ao Stairway to Heaven, nossa ideia é recriar a realidade atingindo sua melhor versão.",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://*.dio.me/*"],
+            "js": ["app.js"]
+        }
+    ]
+}
